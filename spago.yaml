@@ -1,0 +1,30 @@
+package:
+  name: arraybuffer
+  publish:
+    license: MIT
+    version: 13.2.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-arraybuffer
+  dependencies:
+    - arraybuffer-types
+    - arrays
+    - effect
+    - float32
+    - functions
+    - gen
+    - maybe
+    - nullable
+    - prelude
+    - tailrec
+    - uint
+    - unfoldable
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - effect
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
