@@ -23,7 +23,12 @@ package:
     main: Test.Main
     dependencies:
       - console
-      - effect
+      - foldable-traversable
+      - partial
+      - refs
+      - tuples
+      - quickcheck
+      - quickcheck-laws
 workspace:
   extraPackages: {}
   packageSet:
