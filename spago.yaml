@@ -2,7 +2,7 @@ package:
   name: arraybuffer
   publish:
     license: MIT
-    version: 13.2.0
+    version: 14.0.0
     location:
       githubOwner: purescript-contrib
       githubRepo: purescript-arraybuffer
