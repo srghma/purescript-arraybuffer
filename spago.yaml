@@ -29,7 +29,4 @@ package:
       - tuples
       - quickcheck
       - quickcheck-laws
-workspace:
-  extraPackages: {}
-  packageSet:
-    registry: 60.5.0
+workspace: {}
